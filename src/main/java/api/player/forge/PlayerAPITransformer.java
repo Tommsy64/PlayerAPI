@@ -25,6 +25,7 @@ import api.player.server.*;
 
 public class PlayerAPITransformer implements IClassTransformer
 {
+	@Override
 	public byte[] transform(String name, String transformedName, byte[] bytes)
 	{
 		if(transformedName.equals(ClientPlayerClassVisitor.targetClassName))

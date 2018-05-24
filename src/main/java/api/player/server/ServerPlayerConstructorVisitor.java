@@ -50,6 +50,7 @@ public final class ServerPlayerConstructorVisitor extends MethodVisitor
 		}
 	}
 
+	@Override
 	public void visitInsn(int opcode)
 	{
 		if(opcode == Opcodes.RETURN)

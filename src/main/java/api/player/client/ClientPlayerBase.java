@@ -56,6 +56,7 @@ public abstract class ClientPlayerBase
 		return internalClientPlayerAPI.dynamicOverwritten(key, parameters, this);
 	}
 
+	@Override
 	public final int hashCode()
 	{
 		return super.hashCode();

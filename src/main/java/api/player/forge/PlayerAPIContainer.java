@@ -30,6 +30,7 @@ public class PlayerAPIContainer extends DummyModContainer
 		super(createMetadata());
 	}
 
+	@Override
 	public boolean registerBus(EventBus bus, LoadController controller)
 	{
 		return true;

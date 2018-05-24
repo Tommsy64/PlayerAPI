@@ -56,6 +56,7 @@ public abstract class ServerPlayerBase
 		return internalServerPlayerAPI.dynamicOverwritten(key, parameters, this);
 	}
 
+	@Override
 	public final int hashCode()
 	{
 		return super.hashCode();
